@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-require "helper"
+require File.dirname(__FILE__) + "/helper"
 
 class TestReader < Nokogiri::TestCase
   def test_from_io_sets_io_as_source

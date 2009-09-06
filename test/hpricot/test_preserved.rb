@@ -1,4 +1,4 @@
-require "helper"
+require File.dirname(__FILE__) + "/../helper"
 require File.join(File.dirname(__FILE__),"load_files")
 
 class TestPreserved < Nokogiri::TestCase

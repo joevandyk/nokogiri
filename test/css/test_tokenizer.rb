@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-require "helper"
+require File.dirname(__FILE__) + "/../helper"
 
 module Nokogiri
   module CSS

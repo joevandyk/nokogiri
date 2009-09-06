@@ -10,3 +10,4 @@ stash
 .rake_tasks
 tmp
 TAGS
+coverage*

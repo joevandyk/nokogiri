@@ -30,7 +30,7 @@ module Nokogiri
     SNUGGLES_FILE   = File.join(ASSETS_DIR, 'snuggles.xml')
 
     unless RUBY_VERSION >= '1.9'
-      undef :default_test
+      undef :default_test rescue nil
     end
 
     def setup
